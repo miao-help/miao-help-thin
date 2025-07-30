@@ -22,7 +22,7 @@
 - **创建时间**：2025年7月28日
 - **文档状态**：✅ 已完成
 - **主要内容**：
-  - 10个核心页面HTML原型（[在线预览](./design/00-index.html) | [GitHub Pages部署](https://your-username.github.io/miao-help-thin/)）
+  - 10个核心页面HTML原型（[GitHub Pages在线预览](https://your-username.github.io/miao-help-thin/)）
   - 完整的设计系统（玻璃拟态风格）
   - 用户体验流程设计
   - 交互动效实现
@@ -77,30 +77,9 @@
 
 ## 🚀 GitHub Pages 部署
 
-本项目已配置GitHub Actions自动部署到GitHub Pages。
-
-### 部署状态
-- ✅ **自动部署**：推送到main/master分支时自动部署
-- ✅ **部署目录**：`design/` 文件夹内容
-- ✅ **访问地址**：`https://your-username.github.io/miao-help-thin/`
-
-### 手动部署步骤
-1. 确保仓库已启用GitHub Pages功能
-2. 在仓库设置中设置Source为"GitHub Actions"
-3. 推送代码到main分支，GitHub Actions会自动部署
-4. 部署完成后，访问上述地址即可查看
-
-### 本地开发
-```bash
-# 克隆项目
-git clone https://github.com/your-username/miao-help-thin.git
-cd miao-help-thin
-
-# 本地预览
-cd design
-python -m http.server 8000
-# 访问：http://localhost:8000/00-index.html
-```
+- **访问地址**：`https://your-username.github.io/miao-help-thin/`
+- **首页**：`00-index.html` 自动部署为根目录首页
+- **自动部署**：推送到main分支时自动更新
 
 ## 🛠️ 快速开始
 
@@ -112,15 +91,12 @@ open 喵星助手APP开发计划书.md
 
 ### 预览原型设计
 ```bash
-# 方式1：直接打开原型导航页
-open design/00-index.html
-
-# 方式2：启动本地服务器（推荐）
+# 本地预览
 cd design
 python -m http.server 8000
 # 访问：http://localhost:8000/00-index.html
 
-# 方式3：GitHub Pages在线预览
+# 在线预览
 # 访问：https://your-username.github.io/miao-help-thin/
 ```
 
